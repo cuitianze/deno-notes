@@ -1,0 +1,27 @@
+{
+  "name": "deno-notes",
+  "version": "0.0.1",
+  "description": "Learning Notes of  Deno ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gitbook serve",
+    "push": "gitbook build && cd _book && git add ./ && git commit -m 'update notes' && git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cuitianze/deno-notes.git"
+  },
+  "keywords": [
+    "Learning",
+    "Notes",
+    "of",
+    "Deno"
+  ],
+  "author": "cuitianze",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cuitianze/deno-notes/issues"
+  },
+  "homepage": "https://github.com/cuitianze/deno-notes#readme"
+}
