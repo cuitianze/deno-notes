@@ -3,7 +3,7 @@
 The list of deno releases.
 
 [v0.1.6](https://github.com/denoland/deno/releases/tag/v0.1.6)
-Adds deno.stdin, deno.stdout, deno.stderr, deno.open(), deno.write(),
+- Adds deno.stdin, deno.stdout, deno.stderr, deno.open(), deno.write(),
   deno.read(), deno.Reader, deno.Writer, deno.copy() #846
 - Print 'Compiling' when compiling TS.
 - Support zero-copy for writeFile() writeFileSync() #838
